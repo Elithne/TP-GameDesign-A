@@ -1,4 +1,4 @@
-﻿using Unity.FPS.Game;
+using Unity.FPS.Game;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -23,7 +23,7 @@ namespace Unity.FPS.Gameplay
         public float GroundCheckDistance = 0.05f;
 
         [Header("Movement")] [Tooltip("Max movement speed when grounded (when not sprinting)")]
-        public float MaxSpeedOnGround = 10f;
+        public float MaxSpeedOnGround = 8f;
 
         [Tooltip(
             "Sharpness for the movement when grounded, a low value will make the player accelerate and decelerate slowly, a high value will do the opposite")]
@@ -39,7 +39,7 @@ namespace Unity.FPS.Gameplay
         public float AccelerationSpeedInAir = 25f;
 
         [Tooltip("Multiplicator for the sprint speed (based on grounded speed)")]
-        public float SprintSpeedModifier = 2f;
+        public float SprintSpeedModifier = 1.6f;
 
         [Tooltip("Height at which the player dies instantly when falling off the map")]
         public float KillHeight = -50f;

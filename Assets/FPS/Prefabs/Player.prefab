@@ -433,14 +433,14 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   GroundCheckDistance: 1
-  MaxSpeedOnGround: 13
+  MaxSpeedOnGround: 12
   MovementSharpnessOnGround: 15
   MaxSpeedCrouchedRatio: 0.5
-  MaxSpeedInAir: 10
+  MaxSpeedInAir: 8
   AccelerationSpeedInAir: 25
   SprintSpeedModifier: 1.5
   KillHeight: -50
-  RotationSpeed: 200
+  RotationSpeed: 180
   AimingRotationMultiplier: 0.4
   JumpForce: 9
   CameraHeightRatio: 0.8
@@ -521,7 +521,7 @@ MonoBehaviour:
   JetpackVfx:
   - {fileID: 8223674029651735323}
   - {fileID: 8145349454922729230}
-  IsJetpackUnlockedAtStart: 0
+  IsJetpackUnlockedAtStart: 1
   JetpackAcceleration: 8
   JetpackDownwardVelocityCancelingFactor: 1
   ConsumeDuration: 1.5

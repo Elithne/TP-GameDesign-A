@@ -41,11 +41,14 @@ public class WaveSpawner : MonoBehaviour
     void Update()
     {
         if (!VillagersAreAlive()) {
-            if (state == SpawnState.SPAWNING) {
+            if (state == SpawnState.WAITING) {
                 if (!EnemyIsAlive()) {
                     WaveCompleted();
                     Debug.Log("Wave completed!");
-                    state = SpawnState.WAITING; // Vuelve a esperar antes de iniciar la siguiente oleada
+                    //state = SpawnState.WAITING; // Vuelve a esperar antes de iniciar la siguiente oleada
+                    return;
+                } else {
+                    return;
                 }
             }
         }
@@ -53,37 +56,13 @@ public class WaveSpawner : MonoBehaviour
         if (!VillagersAreAlive()) {
             if (waveCountdown <= 0) {
                 if (state != SpawnState.SPAWNING) {
+                    Debug.Log("Spawn de nuevo");
                     StartCoroutine( SpawnWave ( waves[nextWave]));
                     }
                 } else {
                     waveCountdown -= Time.deltaTime;
-            }
-        }
-
-
-    //     if (!VillagersAreAlive()) {
-    //         StartCoroutine(SpawnWave(waves[nextWave])); // Comienza una nueva oleada
-    //         return; // Salimos del Update para evitar iniciar otra oleada en el mismo frame
-    // }
-
-
-    //     if (state == SpawnState.WAITING) {
-    //         // Check enemies
-
-    //         if (!EnemyIsAlive()) {
-
-
-    //             //Nueva ronda
-    //             WaveCompleted();
-    //             Debug.Log("Wave completed!");
-    //         } else {
-    //             return;
-    //         }
-    //     }
-
-
-        
-
+                    }
+                }
     }
 
     void WaveCompleted() {
@@ -95,22 +74,20 @@ public class WaveSpawner : MonoBehaviour
         if (nextWave + 1 > waves.Length - 1) {
             nextWave = 0;
             Debug.Log("All waves completed!");
+        } else {
+            nextWave++;
         }
 
-        nextWave++;
     }
 
     bool EnemyIsAlive() {
         searchCountdown -= Time.deltaTime;
         if (searchCountdown <= 0f) {
-            
             searchCountdown = 1f;
             if (GameObject.FindGameObjectWithTag("Enemy") == null) {
                 return false;
             }
         }
-
-        
         return true;
     }
 

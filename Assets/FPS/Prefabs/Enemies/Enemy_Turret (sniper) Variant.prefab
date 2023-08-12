@@ -122,6 +122,16 @@ PrefabInstance:
       propertyPath: DetectionFireDelay
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4952707194174993026, guid: e29d43f43cc5d82499dd9926e01847d3,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.23774195
+      objectReference: {fileID: 0}
+    - target: {fileID: 4952707194174993026, guid: e29d43f43cc5d82499dd9926e01847d3,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.11887097
+      objectReference: {fileID: 0}
     - target: {fileID: 6370966072896210225, guid: e29d43f43cc5d82499dd9926e01847d3,
         type: 3}
       propertyPath: MaxHealth
@@ -131,6 +141,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9194442102086525668, guid: e29d43f43cc5d82499dd9926e01847d3,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.5834812
+      objectReference: {fileID: 0}
+    - target: {fileID: 9194442102086525668, guid: e29d43f43cc5d82499dd9926e01847d3,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.44051084
+      objectReference: {fileID: 0}
+    - target: {fileID: 9194442102086525668, guid: e29d43f43cc5d82499dd9926e01847d3,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -2.829037e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: 9194442102086525668, guid: e29d43f43cc5d82499dd9926e01847d3,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.3417406
+      objectReference: {fileID: 0}
+    - target: {fileID: 9194442102086525668, guid: e29d43f43cc5d82499dd9926e01847d3,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 0.011234541
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e29d43f43cc5d82499dd9926e01847d3, type: 3}

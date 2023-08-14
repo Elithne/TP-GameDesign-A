@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/FPS/Scenes/Scene03 - Ciudad.unity
     guid: 5564a573c24e9a547a12cafea79bae28
   - enabled: 1
+    path: Assets/FPS/Scenes/Scene04 - Base.unity
+    guid: 65739879283595e4da25c627abffb906
+  - enabled: 1
     path: Assets/FPS/Scenes/WinScene.unity
     guid: 037d06fbede2b4041a843d9ee6fe750c
   - enabled: 1

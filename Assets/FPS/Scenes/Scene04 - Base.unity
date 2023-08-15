@@ -8546,7 +8546,7 @@ PrefabInstance:
     - target: {fileID: 761988294532761013, guid: 32c4a3d30fa2cdb44b59c6932a6a23ae,
         type: 3}
       propertyPath: StartingWeapons.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 761988294532761013, guid: 32c4a3d30fa2cdb44b59c6932a6a23ae,
         type: 3}
@@ -18137,7 +18137,7 @@ PrefabInstance:
     - target: {fileID: 7671270577186476446, guid: a7fa348d53593bb42922672c6cf40651,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7fa348d53593bb42922672c6cf40651, type: 3}

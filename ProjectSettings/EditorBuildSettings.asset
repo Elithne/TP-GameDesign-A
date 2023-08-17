@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/FPS/Scenes/IntroMenu.unity
     guid: 56e3faabc5bb30f49a68bb8f1292f988
   - enabled: 1
+    path: Assets/FPS/Scenes/presentacion.unity
+    guid: f06443faa2aa66445b62bd9807caf86e
+  - enabled: 1
     path: Assets/FPS/Scenes/Scene01.unity
     guid: b5eadbbf94676c7478e096b6cc038b87
   - enabled: 1

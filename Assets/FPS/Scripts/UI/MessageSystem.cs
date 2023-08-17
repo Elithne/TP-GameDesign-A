@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class MessageSystem : MonoBehaviour
 {
-    public Text messageText;
+    public TMP_Text messageText; // Cambio en el tipo de referencia
     private List<Message> messages = new List<Message>();
 
     public void AddMessage(string text, float duration)
@@ -12,13 +12,6 @@ public class MessageSystem : MonoBehaviour
         Message message = new Message(text, duration);
         messages.Add(message);
     }
-
-    // void Start()
-    // {
-    //     string mensaje1 = "¡Bienvenido al juego!";
-    //     float duracionMensaje1 = 10f; // Duración de 5 segundos
-    //     MessageSystem.AddMessage(mensaje1, duracionMensaje1);
-    // }
 
     private void Update()
     {

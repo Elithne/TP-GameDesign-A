@@ -87,6 +87,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2231955200838058728, guid: e29d43f43cc5d82499dd9926e01847d3,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2231955200838058728, guid: e29d43f43cc5d82499dd9926e01847d3,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 2774235613882044843, guid: e29d43f43cc5d82499dd9926e01847d3,
         type: 3}
       propertyPath: AttackRange

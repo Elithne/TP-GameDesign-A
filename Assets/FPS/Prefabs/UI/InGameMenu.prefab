@@ -2712,9 +2712,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 102900000, guid: 72e5c65a45893714484002914e3fd521, type: 3}
+      - m_Target: {fileID: 6873639214463643982}
         m_TargetAssemblyTypeName: Unity.FPS.UI.LoadSceneButton, fps.UI
-        m_MethodName: 
+        m_MethodName: LoadTargetScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2736,7 +2736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9d73053268a2ae48bb9e7d4bf6419fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: LoseScene
+  SceneName: IntroMenu
 --- !u!1 &8212989748668525632
 GameObject:
   m_ObjectHideFlags: 0

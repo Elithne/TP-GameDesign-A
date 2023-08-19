@@ -6661,7 +6661,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 337387634}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 72.8, y: 3.2626102, z: 240.8}
+  m_LocalPosition: {x: 75.6, y: 3.2626102, z: 264.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6697,8 +6697,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 14.402939, y: 27.489185, z: 16.779541}
-  m_Center: {x: 3.6000443, y: 4.4724827, z: 3.054779}
+  m_Size: {x: 24.49224, y: 27.489185, z: 22.385437}
+  m_Center: {x: -1.4446068, y: 4.4724827, z: 0.25183105}
 --- !u!23 &337387638
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10133,7 +10133,7 @@ PrefabInstance:
     - target: {fileID: 6370966072896210225, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
       propertyPath: MaxHealth
-      value: 85
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 6809973363424661249, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
@@ -19868,7 +19868,7 @@ PrefabInstance:
     - target: {fileID: 6370966072896210225, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
       propertyPath: MaxHealth
-      value: 85
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 6809973363424661249, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
@@ -23995,7 +23995,7 @@ PrefabInstance:
     - target: {fileID: 6370966072896210225, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
       propertyPath: MaxHealth
-      value: 85
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6809973363424661249, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
@@ -33501,9 +33501,9 @@ MonoBehaviour:
     - "Soldado Leonardo, acaba de aterrizar en una zona poco pobalda del planeta
       Korvek. Su misi\xF3n, la cual es fundamental para toda la operaci\xF3n de desembarco,
       es reconocer la zona y asegurarla para que nuestro ej\xE9rcito puedan descender
-      libres de amenazas"
-    - "\u201CRecuerde, soldado, la gloria de nuestra civilizaci\xF3n depende del
-      sacrificio de todos\"."
+      libres de amenazas."
+    - "Recuerde, soldado, la gloria de nuestra civilizaci\xF3n depende del sacrificio
+      de todos."
   delayBetweenSentences: 1.5
 --- !u!65 &1620029592
 BoxCollider:
@@ -35527,7 +35527,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1749622520}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 32.934105, y: 3.2626102, z: 297.1477}
+  m_LocalPosition: {x: 32.934105, y: 3.2626102, z: 298.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -38636,7 +38636,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1929994178}
   m_LocalRotation: {x: -0, y: -0.06531599, z: -0, w: 0.9978646}
-  m_LocalPosition: {x: -30.314102, y: 5.49739, z: 84.6423}
+  m_LocalPosition: {x: -27.4, y: 5.49739, z: 123.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -39625,7 +39625,7 @@ PrefabInstance:
     - target: {fileID: 6370966072896210225, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
       propertyPath: MaxHealth
-      value: 85
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 6809973363424661249, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
@@ -43952,7 +43952,7 @@ PrefabInstance:
     - target: {fileID: 6370966072896210225, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
       propertyPath: MaxHealth
-      value: 85
+      value: 80
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25a1b0efadb966e44889fce712c8ff8d, type: 3}
@@ -44132,6 +44132,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7415394280841304184, guid: 32c4a3d30fa2cdb44b59c6932a6a23ae,
+        type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7415394280841304184, guid: 32c4a3d30fa2cdb44b59c6932a6a23ae,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7415394280841304184, guid: 32c4a3d30fa2cdb44b59c6932a6a23ae,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7646313203174982451, guid: 32c4a3d30fa2cdb44b59c6932a6a23ae,
         type: 3}
@@ -44684,6 +44699,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4160549848294572208, guid: c996b53e9f849234393d1e90f68d1679,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 4425632836578603586, guid: c996b53e9f849234393d1e90f68d1679,
         type: 3}

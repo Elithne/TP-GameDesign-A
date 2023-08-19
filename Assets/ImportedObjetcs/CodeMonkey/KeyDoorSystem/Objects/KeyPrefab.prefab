@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MeshFormatVersion: 1
+  m_MeshFormatVersion: 2
   m_Faces:
   - m_Indexes: 000000000100000002000000010000000300000002000000
     m_SmoothingGroup: 0
@@ -2073,8 +2073,8 @@ MonoBehaviour:
   - {x: 0, y: 0.00000007449403, z: -1, w: -1}
   - {x: 0, y: 0.0000001489881, z: -1, w: -1}
   - {x: 0, y: 0, z: 1, w: -1}
-  - {x: 0, y: -0.00075206056, z: 0.9999997, w: -1}
-  - {x: 0, y: -0.00075206056, z: 0.9999997, w: -1}
+  - {x: 0, y: -0.0007520606, z: 0.99999976, w: -1}
+  - {x: 0, y: -0.0007520606, z: 0.99999976, w: -1}
   - {x: 0, y: -0.0015059321, z: 0.99999887, w: -1}
   - {x: 1, y: 0, z: 0, w: -1}
   - {x: 1, y: 0, z: 0, w: -1}
@@ -2153,8 +2153,8 @@ MonoBehaviour:
   - {x: 0, y: -0.000000029800892, z: 1, w: -1}
   - {x: 0, y: -0.00000005960179, z: 1, w: -1}
   - {x: 0, y: 0, z: -1, w: -1}
-  - {x: 0, y: 0.00030082735, z: -1, w: -1}
-  - {x: 0, y: 0.00030082735, z: -1, w: -1}
+  - {x: 0, y: 0.00030082732, z: -0.99999994, w: -1}
+  - {x: 0, y: 0.00030082732, z: -0.99999994, w: -1}
   - {x: 0, y: 0.00060237944, z: -0.9999998, w: 1}
   - {x: 1, y: 0, z: 0, w: -1}
   - {x: 1, y: 0, z: 0, w: -1}
@@ -2264,8 +2264,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2462587269299277023}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1.8, y: 2, z: 1.8}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3795109460358883996}
@@ -2283,8 +2283,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1.2911624, z: 1}
+  m_Center: {x: 0, y: 0.14558119, z: 0}
 --- !u!114 &114743740953362028
 MonoBehaviour:
   m_ObjectHideFlags: 0

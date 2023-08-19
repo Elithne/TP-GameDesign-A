@@ -27,6 +27,8 @@ namespace CodeMonkey.KeyDoorSystemCM {
         [Tooltip("Remove the Key from the Holder after using it to open this Door?")]
         public bool removeKeyOnUse;
 
+        public AudioSource openSound;
+
         Animator m_Animator;
 
         void Awake() {
@@ -37,6 +39,7 @@ namespace CodeMonkey.KeyDoorSystemCM {
         public void OpenDoor() {
             // Play Open Door Animation
             m_Animator.SetTrigger("Open");
+            openSound.Play();
         }
 
         public void CloseDoor() {

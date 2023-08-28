@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2015,17 +2015,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A\xF1o 2977. La humanidad ha conquistado el espacio desde hace siglos
-    con una facilidad inimaginable hasta entonces. Sin embargo, cientos de galaxias
-    visitadas no han desembocado m\xE1s que en infructuosas expediciones a tierras
-    de nadie, donde la vida parece no tener lugar, siquiera para los m\xE1s sencillos
-    microorganismos unicelulares dadas las extremas condiciones.\r\n\r\nEl hogar
-    de nuestra civilizaci\xF3n, la Tierra, comenzaba a quedar peque\xF1a y se ha
-    vuelto cada vez m\xE1s \xE1rida, inestable y peligrosa. Cuando las esperanzas
-    parec\xEDan desvanecerse, un destello de oportunidad surge en el horizonte en
-    forma de Korvek, un enigm\xE1tico planeta a millones de a\xF1os luz de distancia,
-    rebosante de vida, se erige como la \xFAltima posibilidad para preservar y continuar
-    nuestra civilizaci\xF3n."
+  m_text: "A\xF1o 2977. La humanidad ha conquistado el espacio con una facilidad
+    inimaginable hasta entonces. Sin embargo, cientos de galaxias visitadas solo
+    han llevado a infructuosas expediciones donde la vida parece no tener lugar,
+    siquiera para los m\xE1s sencillos microorganismos unicelulares dadas las extremas
+    condiciones.\r\n\r\nEl hogar de nuestra civilizaci\xF3n, la Tierra, comenzaba
+    a quedar peque\xF1a y se ha vuelto cada vez m\xE1s \xE1rida, inestable y peligrosa.
+    \n\nCuando las esperanzas parec\xEDan desvanecerse, un destello de oportunidad
+    surge en el horizonte en forma de Korvek, un enigm\xE1tico planeta a millones
+    de a\xF1os luz de distancia y rebosante de vida, se erige como la \xFAltima posibilidad
+    para preservar y continuar nuestra civilizaci\xF3n."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
